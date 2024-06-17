@@ -34,7 +34,10 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/auth-microservice-nest-e2e/**/*"]
+      "exclude": [
+        "apps/auth-microservice-nest-e2e/**/*",
+        "apps/auth-microservice-e2e/**/*"
+      ]
     }
   ],
   "nxCloudAccessToken": "OGUzY2EwYzItYjBkMy00ZmYyLThiYTYtY2U2YjEzNmQ5ZDcwfHJlYWQtd3JpdGU="
