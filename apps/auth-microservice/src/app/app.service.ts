@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { CreateUserDto, User } from '@auth-microservice-nest/shared';
+import { CreateUserDto, User } from '@api-gateway/shared';
 
 import { UserRepository } from './user.repository';
 

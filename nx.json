@@ -35,7 +35,7 @@
         "targetName": "test"
       },
       "exclude": [
-        "apps/auth-microservice-nest-e2e/**/*",
+        "apps/api-gateway-e2e/**/*",
         "apps/auth-microservice-e2e/**/*"
       ]
     }

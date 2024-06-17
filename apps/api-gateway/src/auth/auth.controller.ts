@@ -1,7 +1,7 @@
 import { Body, Controller, Post, BadRequestException } from '@nestjs/common';
 import { lastValueFrom } from 'rxjs';
 
-import { CreateUserDto, User } from '@auth-microservice-nest/shared';
+import { CreateUserDto, User } from '@api-gateway/shared';
 
 import { AuthService } from './auth.service';
 

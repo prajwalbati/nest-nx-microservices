@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
 
-import { CreateUserDto, User } from '@auth-microservice-nest/shared';
+import { CreateUserDto, User } from '@api-gateway/shared';
 
 @Injectable()
 export class AuthService {

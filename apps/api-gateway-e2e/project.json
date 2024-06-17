@@ -1,9 +1,9 @@
 {
-  "name": "auth-microservice-nest-e2e",
+  "name": "api-gateway-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "implicitDependencies": [
-    "auth-microservice-nest"
+    "api-gateway"
   ],
   "targets": {
     "e2e": {
@@ -12,11 +12,11 @@
         "{workspaceRoot}/coverage/{e2eProjectRoot}"
       ],
       "options": {
-        "jestConfig": "apps/auth-microservice-nest-e2e/jest.config.ts",
+        "jestConfig": "apps/api-gateway-e2e/jest.config.ts",
         "passWithNoTests": true
       },
       "dependsOn": [
-        "auth-microservice-nest:build"
+        "api-gateway:build"
       ]
     }
   }

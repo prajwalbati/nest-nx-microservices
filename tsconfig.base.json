@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@auth-microservice-nest/shared": ["shared/src/index.ts"]
+      "@api-gateway/shared": ["shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
